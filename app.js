@@ -72,9 +72,9 @@ var pike1renderer = function(){
     elCreations[i] = document.createElement('li');
     elCreations[i].id = i;
     let total = pike1.cookiesPerHourArrAndTotal[pike1.cookiesPerHourArrAndTotal.length -1];
-
+    
     if(pike1.cookiesPerHourArrAndTotal[i] !== total){
-      elCreations[i].textContent = `remarkably, at ${pike1.stringHoursArr[i]} we sold ${pike1.cookiesPerHourArrAndTotal[i]} cookies`;
+      elCreations[i].textContent = `pike1, at ${pike1.stringHoursArr[i]} we sold ${pike1.cookiesPerHourArrAndTotal[i]} cookies`;
     }
     else if(pike1.cookiesPerHourArrAndTotal[i] === total){
       elCreations[i].textContent = `and the grand total is ${total}`;
@@ -167,7 +167,7 @@ var seaTacRenderer = function(){
     let total = Seatac.cookiesPerHourArrAndTotal[Seatac.cookiesPerHourArrAndTotal.length -1];
 
     if(Seatac.cookiesPerHourArrAndTotal[i] !== total){
-      elCreations[i].textContent = `remarkably, at ${Seatac.stringHoursArr[i]} we sold ${Seatac.cookiesPerHourArrAndTotal[i]} cookies`;
+      elCreations[i].textContent = `seaTAc, at ${Seatac.stringHoursArr[i]} we sold ${Seatac.cookiesPerHourArrAndTotal[i]} cookies`;
     }
     else if(Seatac.cookiesPerHourArrAndTotal[i] === total){
       elCreations[i].textContent = `and the grand total is ${total}`;
@@ -261,7 +261,7 @@ var seaCenterRenderer = function(){
     let total = seaCenter.cookiesPerHourArrAndTotal[seaCenter.cookiesPerHourArrAndTotal.length -1];
 
     if(seaCenter.cookiesPerHourArrAndTotal[i] !== total){
-      elCreations[i].textContent = `remarkably, at ${seaCenter.stringHoursArr[i]} we sold ${seaCenter.cookiesPerHourArrAndTotal[i]} cookies`;
+      elCreations[i].textContent = `Seattle Center, at ${seaCenter.stringHoursArr[i]} we sold ${seaCenter.cookiesPerHourArrAndTotal[i]} cookies`;
     }
     else if(seaCenter.cookiesPerHourArrAndTotal[i] === total){
       elCreations[i].textContent = `and the grand total is ${total}`;
@@ -355,7 +355,7 @@ var capHillRenderer = function(){
     let total = capHill.cookiesPerHourArrAndTotal[capHill.cookiesPerHourArrAndTotal.length -1];
 
     if(capHill.cookiesPerHourArrAndTotal[i] !== total){
-      elCreations[i].textContent = `remarkably, at ${capHill.stringHoursArr[i]} we sold ${capHill.cookiesPerHourArrAndTotal[i]} cookies`;
+      elCreations[i].textContent = `Capitol Hill, at ${capHill.stringHoursArr[i]} we sold ${capHill.cookiesPerHourArrAndTotal[i]} cookies`;
     }
     else if(capHill.cookiesPerHourArrAndTotal[i] === total){
       elCreations[i].textContent = `and the grand total is ${total}`;
